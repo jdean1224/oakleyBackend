@@ -5,8 +5,9 @@ const dotenv = require('dotenv');
 dotenv.config({ path: './config.env' });
 const app = require('./app');
 
+const DB = deanjustin81;
 mongoose
-  .connect(deanjustin81, {
+  .connect(DB, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
