@@ -1,5 +1,3 @@
-const io = new WebSocket.Server({ noServer: true });
-global.io = new WebSocket.Server({ noServer: true });
 const mongoose = require('mongoose');
 
 const dotenv = require('dotenv');
